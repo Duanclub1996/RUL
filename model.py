@@ -113,22 +113,22 @@ class Model(nn.Module):
     
 
 
-class Parameters():
-    def __init__(self):
-        self.enc_len            = 4
-        self.pred_len        = 1
-        self.kernel_size    = 5
-        self.individual     = False
-        self.enc_in = 5
+# class Parameters():
+#     def __init__(self):
+#         self.enc_len            = 4
+#         self.pred_len        = 1
+#         self.kernel_size    = 5
+#         self.individual     = False
+#         self.enc_in = 5
 
-# args = Parameters()
-# model = Model(configs=args)
+# # args = Parameters()
+# # model = Model(configs=args)
 
-# data = torch.randn(32,4,5)
+# # data = torch.randn(32,4,5)
 
-# print(model(data).shape)
+# # print(model(data).shape)
 
-par = Parameters()
-par.__dict__.update(dict(name='zengshulian', pred_len=1, kernel_size=5, individual=False, enc_in=5))
+# par = Parameters()
+# par.__dict__.update(dict(name='zengshulian', pred_len=1, kernel_size=5, individual=False, enc_in=5))
 
-print(par.name)
+# print(par.name)

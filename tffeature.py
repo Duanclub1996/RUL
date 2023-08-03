@@ -230,7 +230,7 @@ class dataset(Dataset):
         super().__init__()
         self.enc_len = enc_len
         self.pre_len = pre_len
-        self.pred_mode = pred_mode
+        # self.pred_mode = pred_mode
         self.enc_step = enc_step
         self.feature_data = get_time_f_feature(
             filepath=file_path, filename=file_name, win_size=1024, step=1024)
